@@ -10,7 +10,7 @@ TRAIN_FILE = "train-images.idx3-ubyte"
 TRAIN_LABEL_FILE = "train-labels.idx1-ubyte"
 TEST_FILE = "t10k-images.idx3-ubyte"
 TEST_LABEL_FILE = "t10k-labels.idx1-ubyte"
-DATA_DIR = "./mnist/dataset/"
+DATA_DIR = "./data/"
 
 
 class Datapreprocess(object):
