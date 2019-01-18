@@ -1,0 +1,134 @@
+C:\Users\dheer\AppData\Local\Continuum\anaconda2\envs\py35\python.exe D:/dk_lenovo_bckup/workspace/ML/Assignment2/svm.py
+Running One versus One classifiers
+
+Running svm for sigmoid kernel sigmoid
+
+Running fold: 1
+
+Best validation accuracy: 77.14285714285715
+
+
+Fold :  1 ==> Test Accuracy : 69.76744186046511  Optimal Params: C: 32768 gamma:0.000244140625 r:0.5
+
+Running fold: 2
+
+Best validation accuracy: 71.42857142857143
+
+
+Fold :  2 ==> Test Accuracy : 76.74418604651163  Optimal Params: C: 32768 gamma:0.00048828125 r:0.03125
+
+Running fold: 3
+
+Best validation accuracy: 62.857142857142854
+
+
+Fold :  3 ==> Test Accuracy : 46.51162790697674  Optimal Params: C: 512 gamma:0.00390625 r:0.03125
+
+Running fold: 4
+
+Best validation accuracy: 65.71428571428571
+
+
+Fold :  4 ==> Test Accuracy : 48.837209302325576  Optimal Params: C: 16 gamma:0.00390625 r:0.5
+
+Running fold: 5
+
+Best validation accuracy: 68.57142857142857
+
+
+Fold :  5 ==> Test Accuracy : 69.04761904761905  Optimal Params: C: 256 gamma:0.001953125 r:0.5
+
+
+Classification accuracy for sigmoid kernel: 62.18161683277962
+
+time taken by sig oneversusone: 14.200835704803467
+
+Running One versus rest classifiers
+
+Running svm for sigmoid kernel sigmoid
+
+Running fold: 1
+
+Best validation accuracy: 68.57142857142857
+
+
+Fold :  1 ==> Test Accuracy : 53.48837209302325  Optimal Params: C: 512 gamma:0.00390625 r:0.03125
+
+Running fold: 2
+
+Best validation accuracy: 68.57142857142857
+
+
+Fold :  2 ==> Test Accuracy : 65.11627906976744  Optimal Params: C: 32768 gamma:0.00048828125 r:0.03125
+
+Running fold: 3
+
+Best validation accuracy: 60.0
+
+
+Fold :  3 ==> Test Accuracy : 55.81395348837209  Optimal Params: C: 32768 gamma:0.000244140625 r:0.03125
+
+Running fold: 4
+
+Best validation accuracy: 71.42857142857143
+
+
+Fold :  4 ==> Test Accuracy : 65.11627906976744  Optimal Params: C: 8192 gamma:0.0009765625 r:0.03125
+
+Running fold: 5
+
+Best validation accuracy: 71.42857142857143
+
+
+Fold :  5 ==> Test Accuracy : 52.38095238095239  Optimal Params: C: 4096 gamma:0.000244140625 r:0.5
+
+
+Classification accuracy for sigmoid kernel: 58.38316722037653
+
+time taken by sigmoid oneversusrest: 71.8397262096405
+
+Running One versus One classifiers with class weights
+
+Running svm for sigmoid kernel sigmoid
+
+Running fold: 1
+
+Best validation accuracy: 74.28571428571429
+
+
+Fold :  1 ==> Test Accuracy : 58.139534883720934  Optimal Params: C: 32768 gamma:0.0009765625 r:0.125
+
+Running fold: 2
+
+Best validation accuracy: 71.42857142857143
+
+
+Fold :  2 ==> Test Accuracy : 69.76744186046511  Optimal Params: C: 128 gamma:0.00390625 r:0.03125
+
+Running fold: 3
+
+Best validation accuracy: 68.57142857142857
+
+
+Fold :  3 ==> Test Accuracy : 53.48837209302325  Optimal Params: C: 2048 gamma:0.001953125 r:0.0625
+
+Running fold: 4
+
+Best validation accuracy: 68.57142857142857
+
+
+Fold :  4 ==> Test Accuracy : 62.7906976744186  Optimal Params: C: 8192 gamma:0.0009765625 r:0.03125
+
+Running fold: 5
+
+Best validation accuracy: 74.28571428571429
+
+
+Fold :  5 ==> Test Accuracy : 66.66666666666666  Optimal Params: C: 32768 gamma:0.00048828125 r:0.03125
+
+
+Classification accuracy for sigmoid kernel: 62.17054263565891
+
+time taken by sigmoid oneversusonebal: 18.72586178779602
+
+Process finished with exit code 0

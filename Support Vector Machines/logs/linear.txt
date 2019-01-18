@@ -1,0 +1,134 @@
+C:\Users\dheer\AppData\Local\Continuum\anaconda2\envs\py35\python.exe D:/dk_lenovo_bckup/workspace/ML/Assignment2/svm.py
+Running One versus One classifiers
+
+Running svm for linear kernel linear
+
+Running fold: 1
+
+Best validation accuracy: 74.28571428571429
+
+
+Fold :  1 ==> Test Accuracy : 67.44186046511628  Optimal Params: C:     4
+
+Running fold: 2
+
+Best validation accuracy: 71.42857142857143
+
+
+Fold :  2 ==> Test Accuracy : 79.06976744186046  Optimal Params: C:    16
+
+Running fold: 3
+
+Best validation accuracy: 62.857142857142854
+
+
+Fold :  3 ==> Test Accuracy : 48.837209302325576  Optimal Params: C:     2
+
+Running fold: 4
+
+Best validation accuracy: 68.57142857142857
+
+
+Fold :  4 ==> Test Accuracy : 65.11627906976744  Optimal Params: C:   512
+
+Running fold: 5
+
+Best validation accuracy: 74.28571428571429
+
+
+Fold :  5 ==> Test Accuracy : 73.80952380952381  Optimal Params: C:   128
+
+
+Classification accuracy for linear kernel: 66.85492801771872
+
+time taken by linear oneversusone: 33.0796000957489
+
+Running One versus rest classifiers
+
+Running svm for linear kernel linear
+
+Running fold: 1
+
+Best validation accuracy: 65.71428571428571
+
+
+Fold :  1 ==> Test Accuracy : 62.7906976744186  Optimal Params: C:     2
+
+Running fold: 2
+
+Best validation accuracy: 62.857142857142854
+
+
+Fold :  2 ==> Test Accuracy : 67.44186046511628  Optimal Params: C:     2
+
+Running fold: 3
+
+Best validation accuracy: 62.857142857142854
+
+
+Fold :  3 ==> Test Accuracy : 55.81395348837209  Optimal Params: C:    32
+
+Running fold: 4
+
+Best validation accuracy: 71.42857142857143
+
+
+Fold :  4 ==> Test Accuracy : 65.11627906976744  Optimal Params: C:    16
+
+Running fold: 5
+
+Best validation accuracy: 74.28571428571429
+
+
+Fold :  5 ==> Test Accuracy : 61.904761904761905  Optimal Params: C:   256
+
+
+Classification accuracy for linear kernel: 62.61351052048726
+
+time taken by linear oneversusrest: 246.3253881931305
+
+Running One versus One classifiers with class weights
+
+Running svm for linear kernel linear
+
+Running fold: 1
+
+Best validation accuracy: 71.42857142857143
+
+
+Fold :  1 ==> Test Accuracy : 76.74418604651163  Optimal Params: C:   0.5
+
+Running fold: 2
+
+Best validation accuracy: 68.57142857142857
+
+
+Fold :  2 ==> Test Accuracy : 72.09302325581395  Optimal Params: C:   0.5
+
+Running fold: 3
+
+Best validation accuracy: 68.57142857142857
+
+
+Fold :  3 ==> Test Accuracy : 55.81395348837209  Optimal Params: C:     8
+
+Running fold: 4
+
+Best validation accuracy: 71.42857142857143
+
+
+Fold :  4 ==> Test Accuracy : 62.7906976744186  Optimal Params: C:     8
+
+Running fold: 5
+
+Best validation accuracy: 77.14285714285715
+
+
+Fold :  5 ==> Test Accuracy : 69.04761904761905  Optimal Params: C:    16
+
+
+Classification accuracy for linear kernel: 67.29789590254705
+
+time taken by linear oneversusonebal: 88.05687618255615
+
+Process finished with exit code 0

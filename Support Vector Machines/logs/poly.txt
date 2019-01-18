@@ -1,0 +1,92 @@
+C:\Users\dheer\AppData\Local\Continuum\anaconda2\envs\py35\python.exe D:/dk_lenovo_bckup/workspace/ML/Assignment2/svm.py
+Running One versus One classifiers
+
+Running svm for polynomial kernel poly
+
+Running fold: 1
+
+Best validation accuracy: 85.29
+
+
+Fold :  1 ==> Test Accuracy : 57.78  Optimal Params: c :  32768  gamma :  0.0078125  degree :  4 and coef0 :  0.125
+
+Running fold: 2
+
+Best validation accuracy: 76.47 
+
+
+Fold :  2 ==> Test Accuracy : 65.91  Optimal Params: c :  32768 , gamma :  2 , degree :  5 and coef0 :  8
+
+Running fold: 3
+
+Best validation accuracy: 71.43 
+
+
+Fold :  3 ==> Test Accuracy : 72.09  Optimal Params: c :  32768 , gamma :  0.03125 , degree :  4 and coef0 :  0.001953125
+
+Running fold: 4
+
+Best validation accuracy: 88.57 
+
+
+Fold :  4 ==> Test Accuracy : 69.05  c : 32768 , gamma :  0.0078125 , degree : 5 and coef0 : 0.5
+
+Running fold: 5
+
+Best validation accuracy: 82.85714285714286
+
+
+Fold :  5 ==> Test Accuracy : 77.56  Optimal Params: c :  32768 , gamma :  0.0078125 , degree : 2 and coef0 : 0.125
+
+
+Classification accuracy for poly kernel: 68.47
+
+time taken by poly oneversusone: 631.4697530269623
+
+
+
+
+Running One versus One classifiers with class weights
+
+Running svm for polynomial kernel poly
+
+Running fold: 1
+
+Best validation accuracy: 79.41
+
+Fold :  1 ==> Test Accuracy : 60.0  Optimal Params: c :  32768 , gamma : 0.03125 , degree :  3 and coef0 :  0.0078125
+
+Running fold: 2
+
+Best validation accuracy: 76.47
+
+
+Fold :  2 ==> Test Accuracy : 65.91  Optimal Params: c :  32768 , gamma :  2 , degree :  5 and coef0 : 8
+
+Running fold: 3
+
+Best validation accuracy: 71.43
+
+
+Fold :  3 ==> Test Accuracy : 67.44  Optimal Params: c :  32768 , gamma :  0.0078125 , degree :  3 and coef0 :  0.03125
+
+Running fold: 4
+
+Best validation accuracy: 85.71
+
+
+Fold :  4 ==> Test Accuracy : 69.05  Optimal Params: c =  32768 , gamma :  0.03125 , degree :  2 and coef0 :  8
+
+Running fold: 5
+
+Best validation accuracy:82.86 
+
+
+Fold :  5 ==> Test Accuracy : 70.00  Optimal Params: c =  32768 , gamma : 0.03125 , degree : 3 and coef0 :  0.0078125
+
+
+Classification accuracy for poly kernel: 66.48
+
+time taken by poly oneversusonebal: 179.77658104896545
+
+Process finished with exit code 0
